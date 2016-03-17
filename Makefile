@@ -1,4 +1,4 @@
-install: pasa.sh 
+install: uncmake.sh 
 	mv ./uncmake.sh /usr/local/bin/uncmake
 	chmod +x /usr/local/bin/uncmake
 uninstall: 

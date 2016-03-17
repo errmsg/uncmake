@@ -28,9 +28,9 @@ if [ $foundCMakeFiles == 0 ]; then
 fi
 
 if [ $foundCMakeFiles == 3 ]; then
-     echo "CMake files are found!"
+     echo "All necessery CMake files are found!, now removing"
      if [ $folderName == "build" ]; then
-        echo "Removing all files in $folderName"
         rm -r *
+				echo "All files in $folderName are removed! Directory clean"
      fi
 fi
